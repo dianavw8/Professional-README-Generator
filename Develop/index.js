@@ -41,20 +41,27 @@ inquirer
     },
     {
         type: 'input',
-        message: 'Provide instructions on how to reach me with additional questions via GitHub and email address.',
-        name: 'questions',
+        message: 'What is your GitHub URL?',
+        name: 'gitHubUrl',
+    },
+    {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'email',
     },
   ])
   .then((response) =>
     convertToReadme(response.title, response.description, response.install, response.usage, response.license, response.contributors,
-        response.tests, response.questions)
+        response.tests, response.gitHubUrl, response.email)
   );
 
 
-  function convertToReadme (title, description, install, usage, license, contributors, tests, questions) {
+  function convertToReadme (title, description, install, usage, license, contributors, tests, gitHubUrl, email) {
+    
+    
     let ReadmeTemplate = `
     # ${title}
-
+    
     ## Description
 
     ${description}
@@ -81,7 +88,7 @@ inquirer
 
     ${license}
 
-   
+
     ## Contributing
 
     ${contributors}
@@ -92,8 +99,14 @@ inquirer
     
     ## Questions
     
-    ${questions}` 
-    fs.writeFile('text.readme', ReadmeTemplate)
-    
-      }
+    To reach me with additional questions feel free to contact me via GitHub at ${gitHubUrl} or email me at ${email}
+
+` 
+
+    fs.writeFile('readme.md', ReadmeTemplate, function(err, result) {
+        if(err) console.log('error', err);
+        console.log('File Written!')
+      });
+
+    }
 
