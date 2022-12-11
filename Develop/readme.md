@@ -1,8 +1,12 @@
-# Test ReadMe
+
+# Test README
+
+![Apache License 2.0](https://img.shields.io/static/v1?label=license&message=Apache+2.0&color=green)
+
 
 ## Description
 
-This is just a test description.
+Test description bla bla bla.
 
 ## Table of Contents
 
@@ -15,27 +19,27 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-This is just a test install.
+Test install bla bla bla.
 
 ## Usage
 
-This is just a test user.
+Test instructions bla bla bla.
 
 
 ## License
 
-GNU GPLv3 link: https://git.gnome.org/browse/gimp/tree/COPYING
+Apache License 2.0 link: https://choosealicense.com/licenses/apache-2.0/
 
 
 ## Contributing
 
-This is just a test contributer
+Test contributors bla bla bla.
 
 ## Tests
 
-This is just a test test.
+Test test bla bla bla.
 
 ## Questions
 
-To reach me with additional questions feel free to contact me via GitHub at www.thisisjustatest.com or email me at dianavw8@gmail.com
+Take a look at my other work on GitHub at https://github.com/dianavw8, or if you have additional questions feel free to email me at dianavw8@gmail.com.
 
