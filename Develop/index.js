@@ -27,7 +27,7 @@ inquirer
         type: 'list',
         message: 'Select a License option from the below list:',
         name: 'license',
-        choices: ['MIT License (https://github.com/babel/babel/blob/master/LICENSE)', 'GNU GPLv3 (https://git.gnome.org/browse/gimp/tree/COPYING)', 'Apache License 2.0 (https://choosealicense.com/licenses/apache-2.0/)'],
+        choices: ['MIT License link: https://github.com/babel/babel/blob/master/LICENSE', 'GNU GPLv3 link: https://git.gnome.org/browse/gimp/tree/COPYING', 'Apache License 2.0 link: https://choosealicense.com/licenses/apache-2.0/'],
     },
     {
         type: 'input',
@@ -45,4 +45,55 @@ inquirer
         name: 'questions',
     },
   ])
+  .then((response) =>
+    convertToReadme(response.title, response.description, response.install, response.usage, response.license, response.contributors,
+        response.tests, response.questions)
+  );
+
+
+  function convertToReadme (title, description, install, usage, license, contributors, tests, questions) {
+    let ReadmeTemplate = `
+    # ${title}
+
+    ## Description
+
+    ${description}
+
+    ## Table of Contents
+
+    If your README is long, add a table of contents to make it easy for users to find what they need.
+
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Credits](#credits)
+    - [License](#license)
+
+    ## Installation
+
+    ${install}
+
+    ## Usage
+
+    ${usage}
+
+
+    ## License
+
+    ${license}
+
+   
+    ## Contributing
+
+    ${contributors}
+
+    ## Tests
+
+    ${tests}
+    
+    ## Questions
+    
+    ${questions}` 
+    fs.writeFile('text.readme', ReadmeTemplate)
+    
+      }
 
