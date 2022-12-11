@@ -10,7 +10,7 @@ The Professional README Generator is a command-line application that accepts use
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
@@ -36,9 +36,13 @@ For more help and information achiving this, check out the following website: ht
 
 The refactored website can be found at: https://dianavw8.github.io/Professional-README-Generator/
 
+The walkthrough video of the command-line functionality can be seen at: https://drive.google.com/file/d/1pbp3Ne1c2XcZA48R_t5yDGN2ctrxCb8K/view
+
+The walkthrough video of the generated README with a functioning table of contents can be seen at: https://drive.google.com/file/d/1zxrw8-794ncsx2JMWWfd-xZI3mslBCqG/view
+
 The following image demonstrates the application's appearance and functionality in the Terminal:
 ![The Professional README Generator webpage includes a README template.](./Develop/Professional-Readme-Screenshot2.jpg)
-The following image demonstrates the application's appearance and functionality display:
+The following image demonstrates the application's appearance:
 ![The Professional README Generator webpage includes a README template.](./Develop/Professional-Readme-Screenshot.jpg)
 
 

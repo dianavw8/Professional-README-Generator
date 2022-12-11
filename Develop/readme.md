@@ -1,12 +1,12 @@
+    
+# Professional README Generator
 
-# Test README
-
-![Apache License 2.0](https://img.shields.io/static/v1?label=license&message=Apache+2.0&color=green)
+![MIT License](https://img.shields.io/static/v1?label=license&message=MIT&color=green)
 
 
 ## Description
 
-Test description bla bla bla.
+The Professional README Generator is a command-line application that accepts user input to quickly and easily generate a README file. This allows the project creator to devote more time working on the project.
 
 ## Table of Contents
 
@@ -14,30 +14,30 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Credits](#credits)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
 
-Test install bla bla bla.
+To install my project use the following link: https://github.com/dianavw8/Professional-README-Generator and follow these simple directions:
 
 ## Usage
 
-Test instructions bla bla bla.
+The refactored website can be found at: https://dianavw8.github.io/Professional-README-Generator/
 
 
 ## License
 
-Apache License 2.0 link: https://choosealicense.com/licenses/apache-2.0/
+MIT License link: https://github.com/babel/babel/blob/master/LICENSE
 
 
 ## Contributing
 
-Test contributors bla bla bla.
+The following are contributers to the making of my Professional README Generator:
 
 ## Tests
 
-Test test bla bla bla.
+test
 
 ## Questions
 
