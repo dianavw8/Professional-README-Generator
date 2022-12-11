@@ -57,11 +57,22 @@ inquirer
 
 
   function convertToReadme (title, description, install, usage, license, contributors, tests, gitHubUrl, email) {
-    
-    
+    if (license === 'MIT License link: https://github.com/babel/babel/blob/master/LICENSE') {
+      badge = '![MIT License](https://img.shields.io/static/v1?label=license&message=MIT&color=green)'
+    }
+    if (license === 'GNU GPLv3 link: https://git.gnome.org/browse/gimp/tree/COPYING') {
+      badge = '![GNU GPLv3](https://img.shields.io/static/v1?label=license&message=GNU GPLv3&color=green)'
+    }
+    if (license === 'Apache License 2.0 link: https://choosealicense.com/licenses/apache-2.0/') {
+      badge = '![Apache License 2.0](https://img.shields.io/static/v1?label=license&message=Apache 2.0&color=green)'
+    }
+
     let ReadmeTemplate = `
     # ${title}
-    
+
+    ${badge}
+
+
     ## Description
 
     ${description}
@@ -99,7 +110,7 @@ inquirer
     
     ## Questions
     
-    To reach me with additional questions feel free to contact me via GitHub at ${gitHubUrl} or email me at ${email}
+    Take a look at my other work on GitHub at ${gitHubUrl}, or if you have additional questions feel free to email me at ${email}.
 
 ` 
 
