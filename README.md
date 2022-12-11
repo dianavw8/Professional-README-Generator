@@ -61,6 +61,8 @@ https://choosealicense.com/
 
 https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
 
+https://opensource.org/licenses
+
 
 ## Questions
 

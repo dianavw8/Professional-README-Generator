@@ -1,12 +1,11 @@
-    
-# Professional README Generator
+
+# yes
 
 ![MIT License](https://img.shields.io/static/v1?label=license&message=MIT&color=green)
 
-
 ## Description
 
-The Professional README Generator is a command-line application that accepts user input to quickly and easily generate a README file. This allows the project creator to devote more time working on the project.
+te
 
 ## Table of Contents
 
@@ -14,32 +13,39 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
+- [Credits](#credits)
 - [License](#license)
 
 ## Installation
 
-To install my project use the following link: https://github.com/dianavw8/Professional-README-Generator and follow these simple directions:
+jkbhs
 
 ## Usage
 
-The refactored website can be found at: https://dianavw8.github.io/Professional-README-Generator/
+khnj
 
 
 ## License
 
 MIT License link: https://github.com/babel/babel/blob/master/LICENSE
 
+      Copyright 2022 sdf
+
+      Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+      
+      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+      
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+      
 
 ## Contributing
 
-The following are contributers to the making of my Professional README Generator:
+fdg
 
 ## Tests
 
-test
+gd
 
 ## Questions
 
-Take a look at my other work on GitHub at https://github.com/dianavw8, or if you have additional questions feel free to email me at dianavw8@gmail.com.
-
+Take a look at my other work on GitHub at sdf, or if you have additional questions feel free to email me at rt.
