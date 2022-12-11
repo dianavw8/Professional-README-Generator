@@ -36,6 +36,11 @@ For more help and information achiving this, check out the following website: ht
 
 The refactored website can be found at: https://dianavw8.github.io/Professional-README-Generator/
 
+The following image demonstrates the application's appearance and functionality in the Terminal:
+![The Professional README Generator webpage includes a README template.](./Develop/Professional-Readme-Screenshot2.jpg)
+The following image demonstrates the application's appearance and functionality display:
+![The Professional README Generator webpage includes a README template.](./Develop/Professional-Readme-Screenshot.jpg)
+
 
 ## License
 
